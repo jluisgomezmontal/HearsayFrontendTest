@@ -1,0 +1,28 @@
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.favoriteContacts{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--darker);
+  padding: 0px 10px ;
+}
+
+h3{
+  padding:0;
+}
+
+.name{
+  font-weight: normal;
+}
+
+.lastName{
+  font-weight: bold;
+}
+
+.completeName{
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
